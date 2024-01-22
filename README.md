@@ -1,2 +1,3 @@
 # tutorial
-learning git and github
+learning git 
+this is my first git repository
