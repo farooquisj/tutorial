@@ -1,0 +1,56 @@
+git clone <project ka link> //https se clone karte hai generally
+remote >> github
+local >> laptop/pc
+
+
+cd //change directory
+ls //list
+ls -a  //include all hidden files as well
+
+
+git status //to check modifications
+upto date nothing to commit
+modified >> add, commit
+untracked file >> git ko pata nhi hai, git ko iske baare me nhi pata
+unmodified >> unchanged
+staged >> file is ready to be committed (add karna == stage karna)
+ 
+
+git add <file_name>
+//adds new of changed files in working directory to git staging area
+
+
+gir commit -m "some message"
+//it is record of change
+
+
+git push origin main
+//upload local repo content to remote repo
+local --> remote
+"origin" is the name of remote repository
+"main" is the name of branch
+
+
+git init //used to create new git repo
+git remote add origin <link>
+git remote -v //to verify remote
+git branch //to check branch
+git branch -M main //to rename branch as "main"
+git push -u origin main //reduce repitition
+
+
+workflow: 
+localgit
+github repo > clone > changes > add > commit > push 
+
+
+git checkout <branch name> //to navigate
+git chechout -b <branch name> //create new branch
+git branch -d <branch name> //delete branch
+
+
+git diff <branch name>
+git merge <branch name>
+
+
+git pull origin main
